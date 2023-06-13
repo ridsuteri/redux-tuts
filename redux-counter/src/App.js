@@ -6,8 +6,9 @@ function App() {
   return (
    <>
     <Counter/>
-    <button onClick={()=>{dispatch({type:"INCREMENT"})}} >Increment</button>
+    <button onClick={()=>{dispatch({type:"INCREMENT"})}}>Increment</button>
     <button onClick={()=>{dispatch({type:"DECREMENT"})}}>Decrement</button>
+    <button onClick={()=>{dispatch({type:"STEP"})}}>Step increase</button>
    </>
   );
 }

@@ -3,7 +3,8 @@ import cartReducer from './slices/cartSlice'
 
 const store = configureStore({
     reducer: {
-        cart: cartReducer
+        cart: cartReducer,
+        // wishlist: wishlistReducer,
     }
 });
 
