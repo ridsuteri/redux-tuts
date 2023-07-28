@@ -13,9 +13,9 @@ const Product = (props) => {
         <button onClick={()=>{dispatch(addToCart({id:props.id, title: props.title, price:props.price}))}} className="btn btn-primary">
           Add to cart
         </button>
-        {/* <button onClick={()=>{dispatch(removeFromCart({id:props.id}))}} className="btn btn-warning">
+        <button onClick={()=>{dispatch(removeFromCart({id:props.id}))}} className="btn btn-warning">
           Remove from cart
-        </button> */}
+        </button>
 
       </div>
     </div>
